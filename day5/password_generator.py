@@ -24,8 +24,8 @@ password_list = []
 for char in password:
     password_list.append(char)
 random.shuffle(password_list)
-password = ""
 
+password = ""
 for char in password_list:
     password += char
 print(f"Harder form: {password}")
