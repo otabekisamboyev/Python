@@ -1,7 +1,7 @@
 import random
 from hangman_words import word_list
 from hangman_art import stages, logo
-'''My solution
+'''My solution'''
 stage_index = len(stages) - 1
 list_of_word = word_list
 word = random.choice(list_of_word)
@@ -39,9 +39,9 @@ if length == 0 and heart > 0:
     print(f"You found the word: {word}. You win!")
 else:
     print(f"You couldnt find the word: {word}. You loose!")
-'''
 
-'''Teacher's solution'''
+
+'''Teacher's solution
 chosen_word = random.choice(word_list)
 word_length = len(chosen_word)
 
@@ -85,3 +85,4 @@ while not end_of_game:
         print("You win.")
 
     print(stages[lives])
+'''
