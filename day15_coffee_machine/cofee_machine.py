@@ -51,9 +51,9 @@ def process_coins():
     """Returns the total calculated from coins inserted"""
     print("Please insert coins.")
     total = int(input("How many quarters?: ")) * 0.25
-    total += int(input("How many quarters?: ")) * 0.1
-    total += int(input("How many quarters?: ")) * 0.05
-    total += int(input("How many quarters?: ")) * 0.01
+    total += int(input("How many dime?: ")) * 0.1
+    total += int(input("How many nickel?: ")) * 0.05
+    total += int(input("How many penny?: ")) * 0.01
     return total
 
 
